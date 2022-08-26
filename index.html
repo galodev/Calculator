@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style> 
+    @font-face {
+        font-family: DS-DIGIB;
+        src: url(DS-DIGIB.TTF);
+    }
+    @font-face {
+        font-family: DS-DIGI;
+        src: url(DS-DIGI.TTF);
+    }
+    @font-face {
+        font-family: DS-DIGII;
+        src: url(DS-DIGII.TTF);
+    }
+    @font-face {
+        font-family: DS-DIGIT;
+        src: url(DS-DIGIT.TTF);
+    }
+    </style>
+    <title>calculator</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+    <h1>calculator</h1>
+    <div class="numbers">
+    <span id="num1-el"></span>
+    <span id="factor-el"></span>
+    <span id="num2-el"></span>
+    </div>  
+    <div class="buttons">
+    <button id="add-el" onclick="add()"><span>add</span></button>
+    <button id="subtract-el" onclick="subtract()"><span>subtract</span></button>
+    <button id="multiply-el" onclick="multiply()"><span>multiply</span></button>
+    <button id="divide-el" onclick="divide()"><span>divide</span></button>
+    </div>
+    <h3 id="answer-el">Answer: </h3>
+    <script src="index.js"></script>
+</body>
+</html>
